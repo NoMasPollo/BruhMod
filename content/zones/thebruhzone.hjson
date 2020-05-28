@@ -1,0 +1,44 @@
+name: Bruhzone
+description: "Cring"
+loadout: basicNucleus
+startingItems: [
+  copper/2000
+  lead/2500
+  silicon/3000
+  titanium/1000
+  metaglass/500
+  plastanium/500
+  graphite/1000
+  thorium/1000
+  surge-alloy/1000
+  phase-fabric/1000
+]
+//Mode: Attack
+conditionWave: 8
+launchPeriod: 4
+configureObjective: 
+  {
+	//Mode: Attack
+    type: Launched
+    zone: thebruhzone
+  }
+requirements: [
+  {
+    type: ZoneWave
+    zone: desolateRift
+    wave: 10
+  }
+  {
+    type: Unlock
+    block: launchbruh
+  }
+]
+resources: [
+  copper
+  coal
+  lead
+  sand
+  thorium
+  scrap
+  titanium
+]
