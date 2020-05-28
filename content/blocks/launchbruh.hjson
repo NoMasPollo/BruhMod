@@ -5,7 +5,7 @@ itemCapacity: 200
 hasItems: true
 health: 1000
 consumesPower:false
-size: 3
+size: 8
 launchTime: 0.5
 requirements: [
  copper/200000000000
