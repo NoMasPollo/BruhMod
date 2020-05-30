@@ -9,8 +9,8 @@ baseColor: a1ccb5
 phaseColor: b8ffe9
 speedBoost: 25
 speedBoostPhase: 25
-range: 1
-phaseRangeBoost: 9
+range: 4
+phaseRangeBoost: 10
 useTime: 240
 consumes: {
   power: 10
