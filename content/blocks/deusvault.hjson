@@ -1,6 +1,6 @@
 name: Deus Vault
 description: The most powerful of all vaults, however, it has nearly no hp due to using questionable materials
-//type: Vault
+type: Vault
 itemCapacity: 99999999
 hasItems: true
 health: 100
