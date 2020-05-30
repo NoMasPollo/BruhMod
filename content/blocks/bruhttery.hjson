@@ -1,0 +1,17 @@
+name: Bruhetite Battery
+description: A much more powerful battery. Low health.
+type: Battery
+health: 100
+size: 8
+buildCostMultiplier: 0.5
+consumes: {
+  powerBuffered: 99999999999
+}
+requirements: [
+  copper/1600
+  lead/8000
+  silicon/1500
+  bruhetite/1000
+]
+category: power
+research: battery-large
