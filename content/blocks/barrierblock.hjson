@@ -9,8 +9,8 @@ buildCostMultiplier: 2.7
 hasPower: true
 canOverdrive: true
 phaseUseTime: 270
-phaseRadiusBoost: 100
-radius: 75
+phaseRadiusBoost: 24
+radius: 24
 breakage: 999999
 cooldownNormal: 5.5
 cooldownLiquid: 28.5
