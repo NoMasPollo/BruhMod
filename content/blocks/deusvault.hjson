@@ -5,7 +5,7 @@ itemCapacity: 99999999
 hasItems: true
 health: 100
 size: 8
-buildCostMultiplier: 0.666666
+buildCostMultiplier: 0.1
 requirements: [
   surge-alloy/20000
   bruhetite/10000
