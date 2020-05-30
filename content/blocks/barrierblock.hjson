@@ -1,0 +1,37 @@
+name: Reactive Energy Shield
+description: "An incredibly powerful energy shield with low range. Can be boosted with Bruhetite"
+type: ForceProjector
+health: 1
+size: 5
+liquidCapacity: 30
+baseExplosiveness: 25000
+buildCostMultiplier: 2.7
+hasPower: true
+canOverdrive: true
+phaseUseTime: 270
+phaseRadiusBoost: 100
+radius: 75
+breakage: 999999
+cooldownNormal: 5.5
+cooldownLiquid: 28.5
+cooldownBrokenBase: 4.00
+basePowerDraw: 140.0
+consumes: {
+  power: 25
+  items: {
+    items: [
+      bruhetite/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  copper/750
+  silicon/500
+  plastanium/125
+  surge-alloy/250
+  bruhetite/250
+]
+category: effect
+research: force-projector
