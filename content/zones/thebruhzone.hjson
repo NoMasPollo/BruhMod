@@ -21,7 +21,7 @@ requirements: [
   }
   {
     type: Unlock
-    block: launchbruh
+    block: bruhmaker
   }
 ]
 resources: [
