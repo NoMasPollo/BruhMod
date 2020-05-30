@@ -1,0 +1,33 @@
+name: Bruhdrive projector
+description: An incredibly powerful booster that is very indurable, and has nearly no range. Can be boosted with Bruhetite.
+type: OverdriveProjector
+health: 1
+size: 1
+buildCostMultiplier: 0.75
+hasPower: true
+baseColor: a1ccb5
+phaseColor: b8ffe9
+speedBoost: 25
+speedBoostPhase: 25
+range: 1
+phaseRangeBoost: 9
+useTime: 240
+consumes: {
+  power: 10
+  items: {
+    items: [
+      bruhetite/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  surge-alloy/75
+  silicon/75
+  thorium/75
+  phase-fabric/75
+  bruhetite/75
+]
+category: effect
+research: overdrive-projector
