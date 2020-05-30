@@ -1,0 +1,45 @@
+//type: GenericCrafter
+name: Bruhetite Mixer
+description: Uses all the most dangerous substances to create the most dangerous of them all.
+itemCapacity: 10
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 60
+buildCostMultiplier: 0.75
+drawLiquidLight: false
+liquidCapacity: 600
+updateEffectChance: 0.15
+outputItem: bruhetite/10
+consumes: {
+  power: 50
+  items: {
+    items: [
+      thorium/10
+      blast-compound/10
+      coal/50
+      pyratite/10
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 10
+  }
+}
+requirements: [
+  copper/600
+  titanium/300
+  silicon/300
+  metaglass/125
+  plastanium/900
+  thorium/150
+  surge-alloy/500
+]
+category: crafting
+research: blast-mixer
+activeSound: respawning
+activeSoundVolume: 1.25
+idleSound: conveyor
+idleSoundVolume: 0.5
