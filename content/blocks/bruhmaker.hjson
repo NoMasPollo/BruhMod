@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: Bruhetite Mixer
 description: Uses all the most dangerous substances to create the most dangerous of them all.
-itemCapacity: 10
+itemCapacity: 50
 health: 900
 size: 3
 hasPower: true
