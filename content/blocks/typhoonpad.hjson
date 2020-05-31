@@ -9,7 +9,7 @@ consumes: {
   power: 75
 }
 category: upgrade
-research: taser-factory
+research: bruhmaker
 requirements: [
   bruhetite/250
   titanium/400
