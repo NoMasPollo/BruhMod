@@ -2,7 +2,7 @@ name: Reactive Energy Shield
 description: "An incredibly powerful energy shield with low range. Can be boosted with Bruhetite"
 type: ForceProjector
 health: 1
-size: 5
+size: 1
 liquidCapacity: 30
 baseExplosiveness: 25000
 buildCostMultiplier: 2.7
