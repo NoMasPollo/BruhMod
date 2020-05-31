@@ -4,15 +4,15 @@ description: Incredibly healthy drone that fires bullet intercepting missiles.
 speed: 1.5
 maxVelocity: 4.5
 flying: true
-health: 35
+health: 3500
 engineOffset: 2.5
 engineSize: 1
 drag: 0.125
 range: 8000
-hitsize: 1
-hitsizeTile: 2
-shootCone: 210
-rotatespeed: 0.05
+hitsize: 4
+hitsizeTile: 8
+shootCone: 0
+rotatespeed: 0.00
 baseRotateSpeed: 0.025
 //velocityPercision: 24
 rotateWeapon: true
@@ -42,7 +42,7 @@ weapon: {
 	pierce: false
 	//homingPower: 2.25
 	//homingRange: 100
-	bulletSprite: diamond-ore-diamondbullet
+	bulletSprite: shell
 	inaccuracy: 15
   }
 }
