@@ -1,0 +1,35 @@
+name: Bruh Mender
+description: An advanced mend projector that rapidly repairs nearby blocks. Optionally uses cryogems to significantly boost its efficiency.
+type: MendProjector
+health: 10
+size: 1
+buildCostMultiplier: 1
+hasPower: true
+baseColor: 81cce5
+phaseColor: ffffff
+healPercent: 33
+phaseBoost: 66
+range: 24
+reload: 10
+phaseRangeBoost: 48
+itemCapacity: 4
+useTime: 600
+consumes: {
+  power: 8
+  items: {
+    items: [
+      bruhetite/1
+    ]
+    booster: true
+	optional: true
+  }
+}
+requirements: [
+  bruhetite/300
+  lead/75
+  silicon/75
+  surge-alloy/25
+  phase-fabric/125
+]
+category: effect
+research: bruhbooster
