@@ -1,0 +1,28 @@
+name: Sentinel Shield Drone Factory
+description: Unit Factory that eats power quickly, but makes swarming drones that have high health, and no damage. 
+type: UnitFactory
+unitType: sentinel-shield-drone
+size: 5
+health: 180
+produceTime: 90
+maxSpawn: 10
+consumes: {
+  power: 50
+  items: {
+    items: [
+      titanium/10
+      surge-alloy/10
+      bruhetite/10
+    ]
+  }
+}
+category: units
+research: phantom-factory
+requirements: [
+  bruhetite/25
+  copper/400
+  lead/40
+  silicon/5
+  titanium/90
+  metaglass/20
+]
