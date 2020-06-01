@@ -1,15 +1,16 @@
-name: Bruhetite "Wall"
-description: "Barely a wall at all, this is a weapon of mass destruction. Uses Bruhetite to greatly boost the reactive properties of surge alloy, but makes it far less durable."
+name: Bruhetite Wall
+description: "Uses Bruhetite and Zero Liquid to greatly boost the reactive properties of surge alloy."
 type: SurgeWall
-health: 1
+health: 50000
 size: 1
-lightningChance: 10.0
+lightningChance: 1.0
 lightningDamage: 600000
 lightningLength: 2000
 buildCostMultiplier: 0.01
 requirements: [
   surge-alloy/100
-  bruhetite/10000
+  bruhetite/100
+  zerocanister/100
 ]
 category: defense
 research: surge-wall-large
