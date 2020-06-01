@@ -1,4 +1,4 @@
-//type: GenericCrafter
+type: GenericCrafter
 name: Zero Liquid Maker
 description: Uses a huge amount of power and substances with the lowest reactive state to make Zero Liquid.
 itemCapacity: 10
