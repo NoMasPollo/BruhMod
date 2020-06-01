@@ -3,7 +3,7 @@ description: The least reactive and coldest substance in the universe.
 heatCapacity: 100000000000000000.0
 explosiveness: 0.00
 temperature: 0.000001
-viscosity: 0.99
+viscosity: 0.01
 flammability: 0.00
 effect: freezing
 color: 51e8fc
