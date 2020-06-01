@@ -1,0 +1,42 @@
+//type: GenericCrafter
+name: Zero Liquid Maker
+description: Uses a huge amount of power and substances with the lowest reactive state to make Zero Liquid.
+itemCapacity: 10
+liquidCapacity: 10
+health: 1000
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffectChance: 0.08
+consumes: {
+  power: 22.5
+  items: {
+    items: [
+      plastanium/2
+      surge-alloy/1
+      silicon/6
+      noblecanister/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.03333333333
+  }
+}
+requirements: [
+  copper/455
+  metaglass/130
+  plastanium/255
+  thorium/155
+  surge-alloy/35
+  phase-fabric/125
+]
+category: crafting
+research: cryofluidmixer
+activeSound: respawning
+activeSoundVolume: 1.45
+idleSound: machine
+idleSoundVolume: 0.125
+outputLiquid: zero/10
