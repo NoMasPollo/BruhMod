@@ -1,0 +1,16 @@
+name: Large Bruhetite Wall
+description: "Uses Bruhetite and Zero Liquid to greatly boost the reactive properties of surge alloy."
+type: SurgeWall
+health: 200000
+size: 2
+lightningChance: 1.0
+lightningDamage: 600000
+lightningLength: 2000
+buildCostMultiplier: 0.01
+requirements: [
+  surge-alloy/400
+  bruhetite/400
+  zerocanister/400
+]
+category: defense
+research: surge-wall-large
