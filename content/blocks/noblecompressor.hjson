@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Ancient Forge
+description: "A Surge Pyra-Forge that has been modified with ancient technology. Combines many different items using lots and lots of power in order to synthesize the mysterious [#e5b85e]Ancient Alloy[]."
+itemCapacity: 60
+health: 1600
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 200
+buildCostMultiplier: 0.75
+drawLiquidLight: true
+updateEffectChance: 0.75
+consumes: {
+  power: 210
+  items: {
+    items: [
+      metaglass/1
+    ]
+  }
+}
+requirements: [
+  copper/2300
+  silicon/275
+  metaglass/750
+  thorium/350
+  graphite/1000
+  phase-fabric/50
+]
+category: crafting
+research: plastanium-compressor
+activeSound: machine
+activeSoundVolume: 1.75
+idleSound: respawning
+idleSoundVolume: 0.75
+outputItem: noblecanister/1
