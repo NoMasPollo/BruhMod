@@ -39,4 +39,4 @@ activeSound: respawning
 activeSoundVolume: 1.45
 idleSound: machine
 idleSoundVolume: 0.125
-outputLiquid: zero/10
+outputLiquid: zeroliquid/10
