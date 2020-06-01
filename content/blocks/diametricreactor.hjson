@@ -1,0 +1,45 @@
+type: NuclearReactor
+name: Diametric Reactor
+description: A massive and incredibly unstable reactor which attempts to generate power with Bruhetite, and requires Zero Liquid to cool.
+itemCapacity: 100
+liquidCapacity: 100
+health: 6000
+size: 6
+itemDuration: 300
+baseExplosiveness: 500
+heating: 0.02
+explosionRadius: 800
+explosionDamage: 9999999999
+smokeThreshold: 0.5
+flashThreshold: 0.75
+coolantPower: 0.225
+buildCostMultiplier: 0.73227
+powerProduction: 999999.999999999
+consumes: {
+  
+  items: {
+    items: [
+      bruhetite/1
+    ]
+  }
+  liquid: {
+    liquid: zeroliquid
+    amount: 1.00
+  }
+}
+requirements: [
+  silicon/275
+  metaglass/275
+  graphite/275
+  surge-alloy/550
+  phase-fabric/80
+  thorium/1050
+  zerocanister/150
+  bruhetite/150
+]
+category: power
+research: thorium-reactor
+activeSound: thruster
+activeSoundVolume: 0.85
+idleSound: respawning
+idleSoundVolume: 0.25
