@@ -1,4 +1,4 @@
-type: material
+type: resource
 name: Noble Canister
 description: "A container filled with unreactive gases.[]"
 hardness: 0.1
