@@ -1,9 +1,10 @@
 name: Zero Liquid
 description: The least reactive and coldest substance in the universe.
-heatCapacity: 100.0
-explosiveness: 0.000001
+heatCapacity: 100000000000000000.0
+explosiveness: 0.00
 temperature: 0.000001
 viscosity: 0.99
+flammability: 0.00
 effect: freezing
 color: 51e8fc
 barColor: 51e8fc
