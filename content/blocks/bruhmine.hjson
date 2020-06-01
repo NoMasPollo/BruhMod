@@ -1,0 +1,20 @@
+name: Bruh Mine
+description: "Mine that detonates upon getting stepped on, the explostion is devastating."
+type: ShockMine
+health: 10
+size: 1
+length: 48
+tendrils: 300
+tileDamage: 500
+damage: 2000
+cooldown: 40
+hasShadow: false
+fillsTile: false
+buildCostMultiplier: 1.35
+requirements: [
+  thorium/6
+  ancient-alloy/10
+  plastanium/12
+]
+category: effect
+research: bruhbooster
