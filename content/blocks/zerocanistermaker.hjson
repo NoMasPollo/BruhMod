@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Cryogem Compressor
+name: Zero Liquid Compressor
 description: Uses power to put Zero Liquid inside canisters.
 itemCapacity: 25
 liquidCapacity: 150
