@@ -5,6 +5,6 @@ explosiveness: 0.000001
 temperature: 0.000001
 viscosity: 0.99
 effect: freezing
-color: fff3d6
-barColor: f19583
-lightColor: ffd59388
+color: 51e8fc
+barColor: 51e8fc
+lightColor: 51e8fc
