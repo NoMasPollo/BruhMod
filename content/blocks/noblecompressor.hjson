@@ -1,7 +1,6 @@
 type: GenericCrafter
-name: Ancient Forge
-description: "A Surge Pyra-Forge that has been modified with ancient technology. Combines many different items using lots and lots of power in order to synthesize the mysterious [#e5b85e]Ancient Alloy[]."
-itemCapacity: 60
+name: Noble Gas Collector
+description: "A device that uses lots of power to create metaglass canisters of noble gases."
 health: 1600
 size: 4
 hasPower: true
