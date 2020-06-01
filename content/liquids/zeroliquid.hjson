@@ -4,7 +4,7 @@ heatCapacity: 100.0
 explosiveness: 0.000001
 temperature: 0.000001
 viscosity: 0.99
-effect: frozen
+effect: freezing
 color: 51e8fc
 barColor: 51e8fc
 lightColor: 51e8fc
