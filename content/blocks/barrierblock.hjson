@@ -5,7 +5,7 @@ health: 1
 size: 1
 liquidCapacity: 30
 baseExplosiveness: 25000
-buildCostMultiplier: 2.7
+buildCostMultiplier: 1.0
 hasPower: true
 canOverdrive: true
 phaseUseTime: 270
