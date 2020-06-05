@@ -9,6 +9,7 @@ ammoUseEffect: smoke
 maxAmmo: 1000
 rotatespeed: 9
 shots: 1
+killShooter: true
 inaccuracy: 2
 recoil: 100
 shootshake: 10.0
@@ -20,8 +21,8 @@ ammo: {
   knockback: 1
   speed: 10
   fragVelocityMax:0
-  damage: 1
-  fragBullets: 1200
+  damage: 10000000000
+  fragBullets: 9999
   fragBullet:meltdownLaser
   }
 }
