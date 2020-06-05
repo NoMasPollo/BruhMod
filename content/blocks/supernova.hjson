@@ -1,0 +1,36 @@
+type: ArtilleryTurret
+name:Supernova
+description: A highly dangerous weapon, classifed as "Curulean", or world destroyer, this is a modified version, making it a very bad idea to fire, or even build.
+health: 6020
+size: 8
+reload: 6000
+range: 16000
+ammoUseEffect: smoke
+maxAmmo: 1000
+rotatespeed: 9
+shots: 1
+inaccuracy: 2
+recoil: 100
+shootshake: 10.0
+ammoPerShot: 10
+ammo: {
+  unstablecell:{
+  type: ArtilleryBulletType
+  lifetime: 100000
+  knockback: 1
+  speed: 10
+  fragVelocityMax:0
+  damage: 1
+  fragBullets: 1200
+  fragBullet:meltdownLaser
+  }
+}
+requirements: [
+  bruhetite/125
+  copper/400
+  silicon/125
+  titanium/125
+  thorium/125
+]
+category: turret
+research: wave
