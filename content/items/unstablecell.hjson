@@ -1,0 +1,8 @@
+type: resource
+name: Unstable Nuclear Cell
+description: "Primed Thorium, mixed with Bruhetite, and barely held together by Metaglass and Zero Liquid.[]"
+hardness: 0.1
+explosiveness: 9999999999.99
+flammability: 999999999.99
+radioactivity: 99999999.99
+color: fff317
