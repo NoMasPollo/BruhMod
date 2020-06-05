@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Nuclear Cell Creator
+description: Uses power to prime thorium, mix it with bruhetite, and place it insice a cell of metaglass and zero liquid.
+itemCapacity: 200
+liquidCapacity: 150
+health: 630
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: mineBig
+consumes: {
+  power: 10
+  items: {
+    items: [
+    metaglass/10
+    bruhetite/100
+    thorium/100
+    ]
+  }
+  liquid: {
+    liquid: zeroliquid
+    amount: 2
+  }
+}
+requirements: [
+  lead/400
+  graphite/175
+  silicon/150
+  bruhetite/225
+]
+category: crafting
+research: zeromaker
+idleSound: respawning
+idleSoundVolume: 0.5
