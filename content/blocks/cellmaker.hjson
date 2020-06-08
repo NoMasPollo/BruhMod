@@ -34,3 +34,4 @@ category: crafting
 research: zeromaker
 idleSound: respawning
 idleSoundVolume: 0.5
+outputItem: unstablecell
