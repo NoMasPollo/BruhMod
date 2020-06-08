@@ -20,7 +20,7 @@ consumes: {
         silicon/1
     ]
   }
-
+}
 requirements: [
   copper/600
   titanium/300
