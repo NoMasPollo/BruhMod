@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Silicon Duplicator
+description: Uses lots of power to duplicate silicon.
+itemCapacity: 50
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 60
+buildCostMultiplier: 0.75
+drawLiquidLight: false
+liquidCapacity: 600
+updateEffectChance: 0.15
+outputItem: silicon/2
+consumes: {
+  power: 500
+  items: {
+    items: [
+        silicon/1
+    ]
+  }
+
+requirements: [
+  copper/600
+  titanium/300
+  silicon/300
+  metaglass/125
+  plastanium/900
+  thorium/150
+  surge-alloy/500
+]
+category: crafting
+research: blast-mixer
+activeSound: respawning
+activeSoundVolume: 1.25
+idleSound: conveyor
+idleSoundVolume: 0.5
