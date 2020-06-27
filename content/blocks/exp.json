@@ -1,0 +1,31 @@
+type: ArtilleryTurret
+name:Experimental
+description: Experimental.
+health: 1000000
+size: 8
+reload: 1
+range: 16000
+ammoUseEffect: smoke
+maxAmmo: 1000
+rotatespeed: 9
+shots: 100
+inaccuracy: 20
+recoil: 10
+shootshake: 10.0
+ammoPerShot: 1
+ammo: {
+  copper:{
+  type: ArtilleryBulletType
+  lifetime: 100000
+  knockback: 1
+  speed: 10
+  damage: 10000000000
+  splashDamage: 50000
+  splashDamageRadius: 800
+  }
+}
+requirements: [
+  copper/1
+]
+category: turret
+research: wave
